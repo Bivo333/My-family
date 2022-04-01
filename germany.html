@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Germany</title>
+  <link rel="stylesheet" href="css/main2.css">
+</head>
+<body>
+  <h1>Мы в Германии!</h1>
+  <hr>
+  <a href="index.html">Назад</a>
+  <p></p>
+  <img src="./img/img8.jpg" width="600" height="300" alt="Сакуры цветут">
+  <p></p>
+  
+  
+  <form action="" method="get" enctype="multipart/form-data" autocomplete="on">
+    <hr>
+    Имя
+    <input 
+      type="text" 
+      value="Владимир" 
+      readonly>
+    Фамилия 
+    <input 
+      type="text" 
+      value="Ворошилов"
+      readonly>
+    <p></p>
+      Имя
+    <input 
+      type="text" 
+      name="first-name" 
+      placeholder="Введите имя" 
+      tabindex="1"
+      required>
+    Фамилия 
+    <input 
+      type="text" 
+      name="last-name" 
+      placeholder="Введите Фамилию"
+      tabindex="2">
+    Пароль 
+    <input 
+      type="password" 
+      minlength="6" 
+      placeholder="Введите пароль"
+      tabindex="4">
+    Почта 
+    <input 
+      type="email" 
+      placeholder="Введите Ваш e-mail"
+      tabindex="3"
+      required>
+   
+    <input type="submit"value="Отправить">
+    <input type="submit" value="Отослать">
+    <button type="submit">А я тут )</button>
+    <input type="reset" value="Сбросить">
+    
+    <hr>
+    <h3>Ваши интересы</h3>
+    <label for="music">Музыка</label>
+    <input type="checkbox" id="music" checked>
+    Спорт <input type="checkbox">
+    Разработка <input type="checkbox">
+    Сон <input type="checkbox">
+    
+    <hr>
+    <h3>Способ оплаты</h3>
+    Visa <input type="radio" name="payment">
+    Mastercard <input type="radio" name="payment">
+    Monobank <input type="radio" name="payment">
+    Приват24 <input type="radio" name="payment" checked>
+    
+    <hr>
+    <h3>Страна проживания</h3>
+    <select name="" id="">
+      <option value=""disabled>Выберите страну</option>
+      <optgroup label="Европа">
+        <option value="" selected>Украина</option>
+        <option value="">Англия</option>
+        <option value="">Германия</option>
+        <option value="">Франция</option>
+        <option value="">Эстония</option>
+      </optgroup>
+      <option value="">Бразилия</option>
+      <option value="">США</option>
+    </select>
+    
+    <h3>Иностранные языки</h3>
+    <select name="" id="" multiple>
+      <option value="" selected>Украинский</option>
+      <option value="">Английский</option>
+      <option value="">Немецкий</option>
+      <option value="">Французский</option>
+    </select>
+    
+    <h3>Комментарии</h3>
+    <textarea name="" id="" placeholder="Введите текст"></textarea>
+
+    <hr>
+    Аватар
+    <input type="file" multiple>
+    <input type="range" min="0" max="100" step="10">
+    <input type="number" step="10">
+    <input type="hidden">
+    <input type="color">
+    <input type="date">
+  </form>    
+
+  <hr>
+  <table border="1">
+    <tr>
+      <td>#</td>  
+      <td>Фамилия</td>  
+      <td>Имя</td>  
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Ворошилов</td>
+      <td>Андрей</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Ворошилова</td>
+      <td>Инна</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Ворошилов</td>
+      <td>Владимир</td>
+    </tr>
+  </table>
+  
+  <hr>
+  <table border="1">
+    <thead>
+      <th>#</th>  
+      <th>Артикул</th>  
+      <th>Наименование</th>  
+      <th>Наличие на складе</th>  
+      <th>Стоимость</th>  
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>654545</td>
+        <td rowspan="4">Кастрюля</td>
+        <td>+</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>654565</td>
+        <td>+</td>
+        <td>200</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>654589</td>
+        <td>+</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>655689</td>
+        <td>+</td>
+        <td>400</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Итого товаров на сумму</td>
+        <td>1000</td>
+      </tr>
+    </tfoot>    
+  </table>
+
+</body>
+</html>
